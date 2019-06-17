@@ -1,0 +1,10 @@
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-color: #afeeee;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#a9a9a9,#fff8dc);
+}

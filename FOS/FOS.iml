@@ -7,5 +7,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="google-maps-services-0.2.4" level="project" />
+    <orderEntry type="library" name="gson-2.8.1" level="project" />
+    <orderEntry type="library" name="javax.mail-1.5.5" level="project" />
+    <orderEntry type="library" name="joda-time-2.9.9" level="project" />
+    <orderEntry type="library" name="okhttp-3.8.1" level="project" />
+    <orderEntry type="library" name="okio-1.13.0" level="project" />
+    <orderEntry type="library" name="postgresql-42.1.4" level="project" />
+    <orderEntry type="library" name="simple-java-mail-4.4.5" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.7.25" level="project" />
   </component>
 </module>

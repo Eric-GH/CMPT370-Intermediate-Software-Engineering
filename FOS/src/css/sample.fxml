@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+    <left>
+        <VBox prefHeight="400.0" prefWidth="180.0" BorderPane.alignment="CENTER">
+            <children>
+                <VBox prefHeight="100.0" prefWidth="100.0">
+                    <children>
+                        <Label text="Hi, User Hal356" />
+                        <Label text="Address: 110 Science Place" />
+                        <CheckBox mnemonicParsing="false" text="Deliver" />
+                        <CheckBox mnemonicParsing="false" text="Pick Up" />
+                        <CheckBox mnemonicParsing="false" text="Reservation" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="60.0" prefWidth="100.0">
+                    <children>
+                        <TextField />
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                            <children>
+                                <Label text="                              " />
+                                <Button mnemonicParsing="false" text="SEARCH" />
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+                <VBox prefHeight="70.0" prefWidth="100.0">
+                    <children>
+                        <CheckBox mnemonicParsing="false" text="sort by rate" />
+                        <CheckBox mnemonicParsing="false" text="sort by distance" />
+                        <CheckBox mnemonicParsing="false" text="sort by ..." />
+                        <CheckBox mnemonicParsing="false" text="sort by..." />
+                    </children>
+                </VBox>
+                <GridPane>
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="180.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Label prefHeight="17.0" prefWidth="150.0" text="Number of Item(s): " />
+                        <Label text="   10" GridPane.columnIndex="1" />
+                        <Label text="Total Prices:     " GridPane.rowIndex="1" />
+                        <Label text="   \$120" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                    </children>
+                </GridPane>
+                <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="CHECK OUT" />
+                <HBox prefHeight="30.0" prefWidth="180.0">
+                    <children>
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" text="Previous" />
+                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" text="Next" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </left>
+    <center>
+        <HBox prefHeight="400.0" prefWidth="490.0" BorderPane.alignment="CENTER">
+            <children>
+                <VBox prefHeight="200.0" prefWidth="220.0">
+                    <children>
+                        <Label prefHeight="30.0" text="                 Restaurants" />
+                        <ImageView fitHeight="90.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="90.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="90.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="90.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Label prefHeight="30.0" text="         Rate" />
+                        <ImageView fitHeight="90.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="90.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="90.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="90.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="200.0" prefWidth="145.0">
+                    <children>
+                        <Label prefHeight="30.0" text="            Address" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+    </center>
+</BorderPane>
