@@ -24,33 +24,34 @@ src="https://github.com/Eric-GH/CMPT370Project/blob/master/Pic/MainLogIn.png?raw
 <p align="center">
 	Main Windows After User Login
 </p>     
-<div>
+<br>
 	
-</div>
+</br>
 <img style="border-radius: 0.5125em;  
 box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"  
 src="https://github.com/Eric-GH/CMPT370Project/blob/master/Pic/Reg.png?raw=true">    
 <p align="center">
 	Registration Frame
 </p> 
-<div>
+<br>
 	
-</div>
+</br>
+
 <img style="border-radius: 0.5125em;  
 box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"  
 src="https://github.com/Eric-GH/CMPT370Project/blob/master/Pic/LogIn.png?raw=true">    
 <p align="center">
 	LogIn Frame
 </p> 
-<div>
+<br>
 	
-</div>
+</br>
 <img style="border-radius: 0.5125em;  
 box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"  
 src="https://github.com/Eric-GH/CMPT370Project/blob/master/Pic/Info.png?raw=true">    
 <p align="center">
 	Personal Information Frame
 </p> 
-<div>
+<br>
 	
-</div>
+</br>
